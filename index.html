@@ -12,89 +12,51 @@
         <!-- CSS -->
         <link rel="stylesheet" href="css\bootstrap.min.css" type="text/css">
         <link rel="stylesheet" href="css\styles.css" type="text/css">
+
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     </head>
+
 <body>
-    <header>
-        <nav class="navbar bg-body-tertiary navbar-expand-lg">
-            <div class="container-fluid">
-                <!-- BRAND SOLO MOVIL-->
-                <!-- ESTE HAY QUE OCULTARLO EN DESKTOP CON LOS BREAK Y VICE.-->
-                <a class="navbar-brand" href="#">
-                    <img src="media/icons/ICONO_NIKE.svg" alt="Nombre Estudio" width="30" height="24">
-                    Nike
-                </a>
 
-              <!-- HAMBURGUER -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <!-- MENU -->
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <!-- ELEMENTOS (IZQUIERDA)-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
-                    </li>
-
-                    <!-- ELEMENTOS (BRAND SOLO DESKTOP) -->
-                    <li>
-                        <a class="navbar-brand" href="#">
-                            <img src="media/icons/ICONO_NIKE.svg" alt="Nombre Estudio" width="30" height="24">
-                            Nike
-                        </a>
-                    </li>
-
-                    <!-- ELEMENTOS (IZQUIERDA)-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
-                    </li>
-
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-              </div>
-
-            </div>
-          </nav>
-    </header>
-    <!-- <header >
-        <div class="row">
-                    <div class="col">
-                        <ul class="nav justify-content-center">
-                            <li class="nav-item">
-                              <a class="nav-link text-primary" aria-current="page" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link text-primary" href="#">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link text-primary" href="#">Contact</a>
-                            </li>
-                          </ul>
-                    </div>
-
-                    <div class="col d-flex justify-content-center align-items-center">
-                        <a class="" href="#">
-                            <img src=""  width="30" height="24">
-                        </a>
-                    </div>
-
-                    <div class="col d-flex justify-content-center align-items-center">
-                        <div>Hola</div>
-                    </div>
-                </div>
-        
-    </header> -->
-
+    <nav class="navbar navbar-expand-md navbar-dark bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand d-md-none" href="#">
+            <img src="media\icons\group-150.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre Nosotros</a>
+              </li>
+              <a class="navbar-brand d-none d-md-block" href="#">
+                <img src="media\icons\group-150.png" alt="">
+              </a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ASDASD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
     
+    <header>
+        <div class="threed">
+            <model-viewer shadow-intensity="0" disable-zoom disable-tap auto-rotate interaction-prompt="none" shadow-intensity="1" camera-controls touch-action alt="Logo" src="3D\Sin título-1.gltf" ar shadow-intensity="1" camera-controls touch-action="pan-y" generate-schema></model-viewer>
+        </div>
+    </header>
+
+
     <main class="bg-primary">
-        <h1>Alonso es campeón olimpico</h1>
+        <h1 class="custom-text">HOLA</h1>
     </main>
 
 
