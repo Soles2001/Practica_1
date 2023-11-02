@@ -45,6 +45,8 @@ body {
 nav {
     top: 0;
     width: 100vw;
+
+    z-index: 1;
 }
 
 .navbar-brand img {
@@ -87,4 +89,30 @@ model-viewer {
     margin-top: 3%;
     cursor: none;
     overflow: hidden;
+}
+
+
+
+
+
+
+/* PAGE_WORK */
+/* PAGE_WORK */
+/* PAGE_WORK */
+
+._container_fluid_header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+._row_header .col{
+    background-color: #DC3545;
+    border: 1px solid #000;
+    height: 100vh;
+}
+
+._row_header .col:hover{
+    background-color: rgb(255, 207, 145);
 }
