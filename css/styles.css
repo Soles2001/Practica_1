@@ -1,5 +1,5 @@
 :root {
-    --primary: #FF5733;
+    --primary: #141414;
     /* Cambia el color primario */
     --secondary: #00C9A7;
     /* Cambia el color secundario */
@@ -33,18 +33,23 @@ body {
 }
 
 
-.custom-text {
-    color: var(--primary);
-    /* Cambia el color del texto */
+.text-primary {
+    color: var(--primary) !important;
+    opacity: 0.5;
+    transition: 0.5s;
 }
 
-
+.text-primary:hover {
+    opacity: 1;
+}
 
 /*MENU*/
 
 nav {
     top: 0;
     width: 100vw;
+    z-index: 1;
+    height: 10vh;
 }
 
 .navbar-brand img {
@@ -75,16 +80,25 @@ nav {
 
 
 /*HEADER*/
+
 header{
-    height: 100vh;
+    height: 90vh;
 }
 
 model-viewer {
     position: absolute;
-    height: 70vh;
+    height: 90vh;
     width: 100vw;
     z-index: 0;
-    margin-top: 3%;
-    cursor: none;
     overflow: hidden;
+}
+
+._bg_text{
+    position: relative;
+    z-index: -1;
+}
+
+._bg_text>h1{
+    font-size: 5vw!important;
+    text-align: justify;
 }
