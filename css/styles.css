@@ -29,19 +29,12 @@
 
 body {
     background-color: var(--light);
-    width: 100vw !important;
     overflow-x: hidden;
 }
 
 
 .text-primary {
     color: var(--primary) !important;
-    opacity: 0.5;
-    transition: 0.5s;
-}
-
-.text-primary:hover {
-    opacity: 1;
 }
 
 
@@ -49,24 +42,17 @@ body {
 
 nav {
     top: 0;
-    width: 100vw;
-
     z-index: 1;
-
 }
 
 .navbar-brand img {
     width: 80px;
 }
 
-.navbar-nav {
-    align-items: center;
-}
-
 .navbar .navbar-nav .nav-link {
     color: #fff;
     font-size: 1.1em; 
-   padding: 0.5em 1em;
+    padding: 0.5em 1em;
 }
 
 ._navar_mdiferencia{
@@ -77,6 +63,7 @@ nav {
     height: 40px;
     object-fit: contain;
 }
+
 
 @media screen and (min-width: 768px) {
     .navbar-brand img {
@@ -98,19 +85,34 @@ header{
 }
 
 model-viewer {
-    position: absolute;
     height: 90vh;
-    width: 100vw;
     z-index: 0;
     overflow: hidden;
 }
 
 ._bg_text{
-    position: relative;
     z-index: -1;
 }
 
 ._bg_text>h1{
     font-size: 5vw!important;
     text-align: justify;
+}
+
+
+/*MAIN*/
+
+.img_home{
+    height: 80vh !important;
+    object-fit: cover;
+}
+
+.margin_top{
+    margin-top: 12vh!important;
+}
+
+
+.accordion-button{
+    font-size: 2vw;
+    background-color:#F8F9FA!important;
 }
