@@ -1,0 +1,146 @@
+:root {
+    --primary: #FF5733;
+    /* Cambia el color primario */
+    --secondary: #00C9A7;
+    /* Cambia el color secundario */
+    --success: #28A745;
+    /* Cambia el color de éxito */
+    --info: #17A2B8;
+    /* Cambia el color de información */
+    --warning: #FFC107;
+    /* Cambia el color de advertencia */
+    --danger: #DC3545;
+    /* Cambia el color de peligro */
+    --light: #F8F9FA;
+    /* Cambia el color de fondo claro */
+    --dark: #343A40;
+    /* Cambia el color de fondo oscuro */
+}
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    cursor: default;
+}
+
+
+body {
+    background-color: var(--light);
+    width: 100vw !important;
+    overflow-x: hidden;
+}
+
+
+.custom-text {
+    color: var(--primary);
+    /* Cambia el color del texto */
+}
+
+
+
+/*MENU*/
+
+nav {
+    top: 0;
+    width: 100vw;
+
+    z-index: 1;
+
+}
+
+.navbar-brand img {
+    width: 80px;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+        padding: 0 1em;
+    }
+}
+
+
+/*HEADER*/
+header{
+    height: 100vh;
+}
+
+model-viewer {
+    position: absolute;
+    height: 70vh;
+    width: 100vw;
+    z-index: 0;
+    margin-top: 3%;
+    cursor: none;
+    overflow: hidden;
+}
+
+
+
+
+/* PAGE_WORK */
+/* PAGE_WORK */
+/* PAGE_WORK */
+
+._container_fluid_header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+._row_header .col{
+    background-color: #DC3545;
+    border: 1px solid #000;
+    height: 100vh;
+}
+
+._row_header .col:hover{
+    background-color: rgb(255, 207, 145);
+}
+
+.pepe{
+    width: 100%;
+}
+
+._img_header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+._icono_nav{
+    height: 40px;
+    object-fit: contain;
+}
+
+._navar_mdiferencia{
+    mix-blend-mode: difference;
+}
