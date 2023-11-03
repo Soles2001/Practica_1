@@ -43,13 +43,15 @@ body {
     opacity: 1;
 }
 
+
 /*MENU*/
 
 nav {
     top: 0;
     width: 100vw;
+
     z-index: 1;
-    height: 10vh;
+
 }
 
 .navbar-brand img {
@@ -62,8 +64,17 @@ nav {
 
 .navbar .navbar-nav .nav-link {
     color: #fff;
-    font-size: 1.1em;
-    padding: 0.5em 1em;
+    font-size: 1.1em; 
+   padding: 0.5em 1em;
+}
+
+._navar_mdiferencia{
+    mix-blend-mode: difference;
+}
+
+._icono_nav{
+    height: 40px;
+    object-fit: contain;
 }
 
 @media screen and (min-width: 768px) {

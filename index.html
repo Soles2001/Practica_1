@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-  
+
 
 <head>
   <meta charset="UTF-8">
@@ -9,7 +9,7 @@
   <meta name="author" content="Alonso Santamaría, Daniel Alcolea">
   <meta name="description" content="Studio Web">
   <link rel="icon" type="image/x-icon" href="media\icons\group-150.png">
-  <title>Nombre Estudio</title>
+  <title>Saguaro Studio</title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="css\bootstrap.min.css" type="text/css">
@@ -20,10 +20,10 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-light">
+  <nav class="navbar navbar-expand-md _navar_mdiferencia fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand d-md-none" href="index.html">
-        <img src="media\icons\group-150.png" alt="">
+      <a class="navbar-brand d-md-none" href="#">
+        <img src="media/icons/logo_alonso_&_dani.svg" alt="" class="_icono_nav">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,44 +32,35 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link active text-primary" href="work.html">Proyectos</a>
+            <a class="nav-link active" aria-current="page" href="work.html">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-primary" href="about.html">Sobre Nosotros</a>
+            <a class="nav-link" href="about.html">Sobre Nosotros</a>
           </li>
           <a class="navbar-brand d-none d-md-block" href="index.html">
-            <img src="media\icons\group-150.png" alt="">
+            <img src="media/icons/logo_alonso_&_dani.svg" alt="" class="_icono_nav">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="work.html">Proyectos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre Nosotros</a>
-              </li>
-              <a class="navbar-brand d-none d-md-block" href="#">
-                <img src="media\icons\group-150.png" alt="">
-              </a>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ASDASD</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
-    
-    <header>
-        <div class="threed">
-            <model-viewer shadow-intensity="0" disable-zoom disable-tap auto-rotate interaction-prompt="none" shadow-intensity="1" camera-controls touch-action alt="Logo" src="3D\Sin título-1.gltf" ar shadow-intensity="1" camera-controls touch-action="pan-y" generate-schema></model-viewer>
-        </div>
-    </header>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">ASDASD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="d-flex align-items-center">
+    <model-viewer shadow-intensity="0" disable-zoom disable-tap auto-rotate interaction-prompt="none"
+      shadow-intensity="1" alt="Logo" src="3D\Sin título-1.gltf" ar shadow-intensity="1" auto-rotate-delay="1"
+      rotation-per-second="1600%"></model-viewer>
+
+    <div class="container-xxl  _bg_text">
+      <h1 class="lh-1 opacity-50">Creative-drives business ecosystem. Reaching and engagin brands, platforms, and
+        audiences on a new paradigm.</h1>
+    </div>
+  </header>
 
 
   <main>
