@@ -47,6 +47,7 @@ nav {
     width: 100vw;
 
     z-index: 1;
+
 }
 
 .navbar-brand img {
@@ -120,7 +121,6 @@ model-viewer {
 
 .pepe{
     width: 100%;
-    
 }
 
 ._img_header{
@@ -137,4 +137,13 @@ img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+._icono_nav{
+    height: 40px;
+    object-fit: contain;
+}
+
+._navar_mdiferencia{
+    mix-blend-mode: difference;
 }
