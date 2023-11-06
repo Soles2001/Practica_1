@@ -17,5 +17,15 @@ $(document).ready(function() {
         //pantalla.remove();
     });
 
+    $('._row_header .col').click(function() {
+        // coger el valor del "href" correspondiente al cada "col"
+        var go_work = $(this).find('a').attr('href');
+        // Redirigir a nuev pagina
+        window.location.href = go_work;
+    });
+
+    //¿por que cojones he hecho esto si al clikear en un "a" ya te redirige a una página? xd
+    //maeima niño que retraso
+
 
 });
