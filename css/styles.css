@@ -111,8 +111,40 @@ model-viewer {
     margin-top: 12vh!important;
 }
 
+.accordion-button:not(.collapsed){
+    color: #141414;
+    
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-flush{
+    background-color:#F8F9FA!important;
+}
+
+.accordion-item{
+    background-color:#F8F9FA!important;
+    width: 33vw !important;
+    border-bottom: 0;
+    margin-right: 6%;
+}
 
 .accordion-button{
     font-size: 2vw;
     background-color:#F8F9FA!important;
+    padding-left: 0;
+}
+
+.accordion-body{
+    background-color:#F8F9FA!important;
+}
+
+.container-fluid{
+    --bs-gutter-x: 0rem;
+}
+
+.carousel-inner{
+    height: 50vh;
 }
