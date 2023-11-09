@@ -122,7 +122,7 @@ $(document).ready(function () {
 
     if (currentPage === "example7.html") {
         imagenes = [
-            "media/img/f1.png",
+            "media/img/f1.gif",
             "media/img/f2.png",
             "media/img/f3.png",
             "media/img/f4.png",
