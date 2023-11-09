@@ -36,7 +36,7 @@ $(document).ready(function () {
     //¿por que cojones he hecho esto si al clikear en un "a" ya te redirige a una página? xd
     //maeima niño que retraso
 
-    var _change_txt = $('#_more_to_less');
+    var _change_txt = $('._more_to_less');
     var collapseExample = $('#collapseExample');
 
     collapseExample.on('hidden.bs.collapse', function () {
