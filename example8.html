@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alonso Santamaría, Daniel Alcolea">
+    <meta name="description" content="Studio Web">
+    <link rel="icon" type="image/x-icon" href="img/favicom.png">
+    <title>Saguaro Studio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css\bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css\example.css" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-LC9l6D6jI6Fq1T70bzUh5I/uv8jCBuRWtXf54ZeJKh4zlN6OTgTfzDx0eRuELwWs" crossorigin="anonymous">
+
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md _navar_mdiferencia fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand d-md-none" href="#">
+                <img src="media/icons/logo_alonso_&_dani.svg" alt="" class="_icono_nav">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="work.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre Nosotros</a>
+                    </li>
+                    <a class="navbar-brand d-none d-md-block" href="index.html">
+                        <img src="media/icons/logo_alonso_&_dani.svg" alt="" class="_icono_nav">
+                    </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">ASDASD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <!-- <div class="_nav_height"></div> -->
+    </header>
+
+    <main>
+        <div class="_jpg_12col _hover_carrousel">
+            <img src="media\img\f1.gif" alt="imagen" id="work_img" class="pepe">
+        </div>
+        <div class="_contenedor_margen">
+            <div class="row _margin_bottom">
+                <div class="col">
+                    <h1>LOEWE</h1>
+                    <div>
+                        <p>THEMATIC
+                        <br>Brand Transformation</p>
+                        <p>WHAT WE DID
+                        <br>Editorial, Copywriting</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <h1>ARTBOOK</h1>
+                    <h4>Reframing a world-class museum as a place for everyone.</h4>
+                    <h4><a data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample" id="_more_to_less">
+                        more info +
+                    </a></h4>
+    
+                    <p class="d-inline-flex gap-1">
+                        
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div>
+                            <h4>
+                            Offering five floors of unique exhibitions and experiences, THC NYC
+                            aims to be a beacon of “high” culture, and our identity helps to transport visitors out of the
+                            ordinary and immerse them in the extraordinary.
+    
+                            Almost overnight, New York officially pivoted its approach towards, and relationship with,
+                            marijuana
+                            in a dramatic 180-degree flip. Legalizing the substance for public consumption in 2021
+                            immediately
+                            led to dispensaries opening in droves, a slower release and rehabilitation of those previously
+                            convicted of weed-related crimes, and a significant growth in general interest in cannabis
+                            products
+                            and culture.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- https://www.basedesign.com/work/thc-nyc -->
+                <!-- algo asi?????  -->
+            </div>
+
+            <div class="_jpg_12col _margin_bottom _jpg_850">
+                <img src="media\img\o1.jpg" alt="imagen" id="work_img" class="pepe">
+            </div>
+            
+            <div class="row _custom_gutter _margin_bottom">
+                <div class="col _jpg_850">
+                    <img src="media\img\o2.jpg" alt="imagen" id="work_img" class="pepe">
+                </div>
+                <div class="col _jpg_850">
+                    <img src="media\img\o3.jpg" alt="imagen" id="work_img" class="pepe">
+                </div>
+            </div>
+
+            <div class="row _custom_gutter _margin_bottom">
+                <div class="col _jpg_850">
+                    <img src="media\img\o4.jpg" alt="imagen" id="work_img" class="pepe">
+                </div>
+                <div class="col _jpg_850">
+                    <img src="media\img\o5.jpg" alt="imagen" id="work_img" class="pepe">
+                </div>
+            </div>
+
+            <div class="_jpg_12col _margin_bottom _jpg_850">
+                <img src="media\img\o6.jpg" alt="imagen" id="work_img" class="pepe">
+            </div>
+
+            <div class="d-grid gap-2">
+                <button class="btn border border-dark" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><h4>Get in touch</h4></button>
+            </div>
+
+        </div>
+
+        <!-- MODAL -->
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Contacto</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+  
+              <div class="row text-center">
+                <div class="row">
+                  <div class="col-12">
+                    <h1>Hablemos</h1>
+                  </div>
+                  <div class="col-12">
+                    <h2>hello@saguaro.es</h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <h1>Siguenos</h1>
+                  </div>
+                  <div class="col-12">
+                    <ul class="list-unstyled my-0">
+                      <li><h2>Behance</h2></li>
+                      <li><h2>Instagram</h2></li>
+                      <li><h2>TikTok</h2></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+  
+        
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <!-- JS BOOTSTRAP -->
+    <script src="js\bootstrap.bundle.min.js"></script>
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- JS -->
+    <script src="js\scripts.js"></script>
+</body>
+</html>

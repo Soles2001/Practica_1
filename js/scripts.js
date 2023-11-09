@@ -50,9 +50,12 @@ $(document).ready(function () {
 
 
 
+
+
+    let imagenes;
+
     if (currentPage === "example.html") {
-        //DEFINIMOS UN ARRAY LLAMADO "IMAGENES"
-        const imagenes = [
+        imagenes = [
             "media/img/MFA1.png",
             "media/img/MFA2.png",
             "media/img/MFA3.png",
@@ -60,6 +63,109 @@ $(document).ready(function () {
             "media/img/MFA5.png",
             "media/img/MFA6.png",
         ];
+    }
+    
+    if (currentPage === "example2.html") {
+        imagenes = [
+            "media/img/Loewe1.gif",
+            "media/img/Loewe2.png",
+            "media/img/Loewe3.png",
+            "media/img/Loewe4.png",
+            "media/img/Loewe5.png",
+            "media/img/Loewe6.png"
+        ];
+    }
+
+    if (currentPage === "example3.html") {
+        imagenes = [
+            "media/img/mama1.png",
+            "media/img/mama2.png",
+            "media/img/mama3.png",
+            "media/img/mama4.png",
+            "media/img/mama5.png",
+            "media/img/mama6.png"
+        ];
+    }
+
+    if (currentPage === "example4.html") {
+        imagenes = [
+            "media/img/ar1.png",
+            "media/img/ar2.png",
+            "media/img/ar3.png",
+            "media/img/ar4.png",
+            "media/img/ar5.png",
+            "media/img/ar6.png"
+        ];
+    }
+
+    if (currentPage === "example5.html") {
+        imagenes = [
+            "media/img/g1.jpg",
+            "media/img/g2.jpg",
+            "media/img/g3.jpg",
+            "media/img/g4.jpg",
+            "media/img/g5.jpg",
+            "media/img/g6.jpg",
+        ];
+    }
+
+    if (currentPage === "example6.html") {
+        imagenes = [
+            "media/img/origen6.jpg",
+            "media/img/a2.gif",
+            "media/img/a3.jpg",
+            "media/img/a4.jpg",
+            "media/img/a5.jpg",
+            "media/img/a6.jpg",
+        ];
+    }
+
+    if (currentPage === "example7.html") {
+        imagenes = [
+            "media/img/f1.png",
+            "media/img/f2.png",
+            "media/img/f3.png",
+            "media/img/f4.png",
+            "media/img/f5.png",
+            "media/img/f6.png",
+        ];
+    }
+
+    if (currentPage === "example8.html") {
+        imagenes = [
+            "media/img/o1.jpg",
+            "media/img/o2.jpg",
+            "media/img/o3.jpg",
+            "media/img/o4.jpg",
+            "media/img/o5.jpg",
+            "media/img/o6.jpg",
+        ];
+    }
+
+    if (currentPage === "example9.html") {
+        imagenes = [
+            "media/img/origen9.jpg",
+            "media/img/m1.jpg",
+            "media/img/m2.jpg",
+            "media/img/m3.jpg",
+            "media/img/m4.jpg",
+            "media/img/m5.jpg",
+        ];
+    }
+
+    if (currentPage === "example10.html") {
+        imagenes = [
+            "media/img/origen10.jpg",
+            "media/img/t2.jpg",
+            "media/img/t3.jpg",
+            "media/img/t4.jpg",
+            "media/img/t5.jpg",
+            "media/img/t6.jpg",
+        ];
+    }
+
+    if (currentPage === "example.html" || currentPage === "example2.html" || currentPage === "example3.html" || currentPage === "example4.html" || currentPage === "example5.html" || currentPage === "example6.html" || currentPage === "example7.html" || currentPage === "example8.html" || currentPage === "example9.html" || currentPage === "example10.html") {
+
         //GUARDAMOS LA IMAGEN A REMPLAZAR (ID) EN UN VARIABLE
         var $imgElement = $("#work_img");
         //se crea la variable currentImageIndex en 0 (esta seguira la posicion del array que se muestra)
