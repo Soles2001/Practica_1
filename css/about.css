@@ -137,8 +137,15 @@ h4{
 
 
 
+/* NOSOTROS */
+/* NOSOTROS */
+
 .custom-list {
     margin: 0;
     padding: 0;
     list-style: none; 
 }
+img{
+    border-radius: 5px;
+}
+
