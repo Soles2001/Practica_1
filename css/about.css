@@ -149,3 +149,30 @@ img{
     border-radius: 5px;
 }
 
+
+
+/* MODAL */
+/* MODAL */
+
+.modal-content {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+    color: #ffffff;
+}
+
+.modal-body .row{
+    --bs-gutter-x: 0;
+    gap: 33px;
+}
+
+.modal-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.btn-close {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
