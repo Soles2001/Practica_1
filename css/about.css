@@ -91,7 +91,6 @@ img{
     mix-blend-mode: difference;
 }
 
-
 /* PARA TODOS */
 
 a:hover{
@@ -117,15 +116,6 @@ a:hover{
 ._jpg_850{
     height: 850px;
 }
-
-
-
-
-
-/* 
-INTERIOR
-INTERIOR */
-
 ._contenedor_margen{
     margin: 50px;
 }
@@ -133,58 +123,22 @@ INTERIOR */
     text-decoration: none;
     color: inherit;
 }
-._contenedor_margen h4{
+h4{
     font-weight: 400;
 }
-
 ._margin_bottom{
     margin-bottom: 50px;
 }
 
-._custom_gutter {
-    gap: 50px;
+
+
+
+
+
+
+
+.custom-list {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
 }
-
-._custom_gutter .col:first-child{
-    padding-right: 0;
-}
-._custom_gutter .col:nth-child(2){
-    padding-left: 0;
-}
-
-
-
-
-
-/* MODAL */
-/* MODAL */
-
-.modal-content {
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(15px);
-    color: #ffffff;
-}
-
-.modal-body .row{
-    --bs-gutter-x: 0;
-    gap: 33px;
-}
-
-.modal-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 100px;
-}
-
-.btn-close {
-    color: #ffffff !important;
-    font-weight: bold !important;
-}
-
-
-
-
-
-
-
