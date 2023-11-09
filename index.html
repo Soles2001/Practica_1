@@ -18,9 +18,9 @@
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 
-<body>
+<body class="vw-100">
 
-  <nav class="navbar navbar-expand-md _navar_mdiferencia fixed-top">
+  <nav class="navbar navbar-expand-md _navar_mdiferencia fixed-top vw-100 align-items-center">
     <div class="container-fluid">
       <a class="navbar-brand d-md-none" href="#">
         <img src="media/icons/logo_alonso_&_dani.svg" alt="" class="_icono_nav">
@@ -44,31 +44,182 @@
             <a class="nav-link" href="team.html">ASDASD</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contacto</a>
+            <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Contacto</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="d-flex align-items-center">
+  <header class="d-flex align-items-center vh-100">
     <model-viewer shadow-intensity="0" disable-zoom disable-tap auto-rotate interaction-prompt="none"
       shadow-intensity="1" alt="Logo" src="3D\Sin título-1.gltf" ar shadow-intensity="1" auto-rotate-delay="1"
-      rotation-per-second="1600%"></model-viewer>
+      rotation-per-second="1600%" class="vw-100 position-absolute"></model-viewer>
 
-    <div class="container-xxl  _bg_text">
+    <div class="container-xxl  _bg_text position-relative">
       <h1 class="lh-1 opacity-50">Creative-drives business ecosystem. Reaching and engagin brands, platforms, and
         audiences on a new paradigm.</h1>
     </div>
   </header>
 
 
-  <main>
-    <h1>HOLA</h1>
+  <main class="container-fluid">
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+      <div class="col-md-6 p-lg-5 mx-auto my-5">
+        <h1 class="display-3 fw-bold text-primary">Do you have any project?</h1>
+        <h3 class="fw-normal text-muted mb-3  text-primary">Contact with us</h3>
+        <a class="icon-link" href="contact.html" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Contact
+          <svg class="bi">
+            <use xlink:href="#chevron-right" /></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+
+        <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden hei img_home">
+          <img src="media\img\origen3.jpg" alt="">
+        </div>
+
+        <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden container-fluid">
+          <h1 class="text-uppercase text-primary">multi-disciplinary, independently owned design studio.</h1>
+          <p>Our work encompasses graphics and identity, strategy and positioning, products and packaging, exhibitions
+            and installations, websites and digital experiences, advertising and communications, data visualizations and
+            typefaces, sound and motion. Our 24 partners are all practicing designers, and whether working
+            collaboratively or independently, they do so in friendship.</p>
+        </div>
+
+      </div>
+
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 margin_top">
+
+        <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden container-fluid">
+          <h1 class="text-uppercase text-primary">Our structure is unique.</h1>
+          <p>We are the only major design studio where the owners of the business are the creators of the work and serve
+            as the primary contact for every client.This reflects our conviction that great design cannot happen without
+            passion, intelligence and—above all—personal commitment, and is demonstrated by a portfolio that spans five
+            decades, many industries, and clients of every size.</p>
+        </div>
+
+        <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden container-fluid img_home">
+          <img src="media\img\origen7.jpg" alt="">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container margin_top">
+      <h1>FAQ</h1>
+      <div class="accordion accordion-flush d-flex" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h1 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              How much does it cost to design a website or an application?
+            </button>
+          </h1>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Designing a website or an application depends on all the facilities and love
+              that you want to share with your target audience. (No! Less facilities does not mean less love!!) Since
+              each website and each application is unique in its own way, we have never been able to nor will we ever be
+              able to set a predefined cost for it. But what we can do is to share an estimate after we have known a
+              little bit about your dream project. So, feel free to drop us a line whenever you want! We are all ears!!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Does Design Studio design custom websites?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Oh yeah! You bet it does! You see, every project is unique with its own set of
+              business goals and target audiences. So, there is no way that a “one size fits all” rule can be applied
+              here. Not even a bit! Every website and application is created from scratch, and is made from 100% custom
+              materials picked only and only for that project..</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Why would I choose Design Studio over a freelancer?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Hmm. Good question. You know what a team can do, right? Build empires, win
+              matches, fight aliens! The list is long. Compared to a hero trying to do everything single-handedly, if
+              they team up with more heroes with similar visions and goals, they simply become more powerful! It’s the
+              same here. Teamwork allows us to serve you better through better brainstorming sessions, better ideas and
+              better quality checks. You get it, right? By the way, we love you, freelancers!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid margin_top">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="2500">
+        <div class="carousel-inner">
+          <div class="carousel-item active w-100 h-100">
+            <img src="media\img\origen3.jpg" class="d-block w-100" alt="Diapositiva 1" class="object-fit-cover h-100 w-100">
+          </div>
+          <div class="carousel-item w-100 h-100">
+            <img src="media\img\origen10.jpg" class="d-block w-100" alt="Diapositiva 2" class="object-fit-cover h-100 w-100">
+          </div>
+          <div class="carousel-item w-100 h-100">
+            <img src="media\img\origen1.jpg" class="d-block w-100" alt="Diapositiva 3" class="object-fit-cover h-100 w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Contacto</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+  
+              <div class="row text-center">
+                <div class="row">
+                  <div class="col-12">
+                    <h1>Hablemos</h1>
+                  </div>
+                  <div class="col-12">
+                    <h2>hello@saguaro.es</h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <h1>Siguenos</h1>
+                  </div>
+                  <div class="col-12">
+                    <ul class="list-unstyled my-0">
+                      <li><h2>Behance</h2></li>
+                      <li><h2>Instagram</h2></li>
+                      <li><h2>TikTok</h2></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+
   </main>
 
 
-  <footer>
+  <footer class="container-fluid margin_top">
 
   </footer>
 
