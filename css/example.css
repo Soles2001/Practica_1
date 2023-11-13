@@ -145,18 +145,17 @@ INTERIOR */
     gap: 50px;
 }
 
-._custom_gutter .col:first-child{
+/* ._custom_gutter .col:first-child{
     padding-right: 0;
 }
 ._custom_gutter .col:nth-child(2){
     padding-left: 0;
-}
+} */
 
 
 
 
 
-/* MODAL */
 /* MODAL */
 
 .modal-content {
@@ -185,6 +184,16 @@ INTERIOR */
 
 
 
+@media (max-width: 767px) {
+    .container-fluid > div   {
+        flex-direction: column;
+    }
 
+    .container-fluid > div>div:nth-child(2)   {
+        margin-top: 3%;
+    }
 
-
+    .container-fluid > div:not(:first-child){
+        width: 100vw;
+    }
+}
