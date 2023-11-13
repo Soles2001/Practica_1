@@ -137,10 +137,6 @@ INTERIOR */
     font-weight: 400;
 }
 
-._margin_bottom{
-    margin-bottom: 50px;
-}
-
 ._custom_gutter {
     gap: 50px;
 }
@@ -170,9 +166,6 @@ INTERIOR */
 }
 
 .modal-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding-bottom: 100px;
 }
 
@@ -181,19 +174,22 @@ INTERIOR */
     font-weight: bold !important;
 }
 
+.navbar-toggler{
+    color: black;
+}
 
 
 
 @media (max-width: 767px) {
-    .container-fluid > div   {
+    .container-xxl > div   {
         flex-direction: column;
     }
 
-    .container-fluid > div>div:nth-child(2)   {
+    .container-xxl > div>div:nth-child(2)   {
         margin-top: 3%;
     }
 
-    .container-fluid > div:not(:first-child){
+    .container-xxl > div:not(:first-child){
         width: 100vw;
     }
 }
