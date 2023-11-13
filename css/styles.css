@@ -146,9 +146,12 @@ model-viewer {
 }
 
 .carousel-inner{
-    height: 50vh;
+    height: 60vh;
 }
 
+.carousel-item>img{
+    height: 50vh!important;
+}
 
 .modal-content {
     background: rgba(255, 255, 255, 0.5);
@@ -171,4 +174,30 @@ model-viewer {
 .btn-close {
     color: #ffffff !important;
     font-weight: bold !important;
+}
+
+
+
+@media (max-width: 767px) {
+
+    .accordion-flush{
+        flex-direction: column !important;
+        align-items: center;
+        width: 100% !important;
+    }
+
+    .accordion-item{
+        width: 100% !important;
+        margin-right: 0;
+    }
+
+    body > main > div:nth-child(2) > div.d-md-flex.flex-md-equal.w-100.my-md-3.ps-md-3.margin_top{
+        flex-direction: column-reverse;
+        width: 100%!important;
+    }
+
+    .accordion-button{
+        font-size: 4vw;
+    }
+
 }

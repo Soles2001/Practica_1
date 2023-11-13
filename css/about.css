@@ -1,5 +1,5 @@
 :root {
-    --primary: #ffffff;
+    --primary: #F8F9FA;
     /* Cambia el color primario */
     --secondary: #00C9A7;
     /* Cambia el color secundario */
@@ -131,7 +131,7 @@ a:hover{
 h4{
     font-weight: 400;
 }
-._margin_bottom{
+.mb-5{
     margin-bottom: 50px;
 }
 
@@ -172,6 +172,10 @@ img{
     margin-bottom: 15px;
 }
 
+
+.team_img{
+    height: 50vh;
+}
 
 
 /* MODAL */
