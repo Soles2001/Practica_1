@@ -15,6 +15,11 @@
     /* Cambia el color de fondo claro */
     --dark: #343A40;
     /* Cambia el color de fondo oscuro */
+
+
+    --primario: rgb(255, 255, 255);
+    --neutro: rgb(175, 175, 175);
+    --secundario: rgb(26, 26, 26);
 }
 
 * {
@@ -27,7 +32,7 @@
 
 
 body {
-    background-color: var(--light);
+    background-color: var(--primary);
     width: 100vw !important;
     overflow-x: hidden;
 }
@@ -149,6 +154,24 @@ img{
     border-radius: 5px;
 }
 
+._padding_l{
+    padding-right: 25px;
+}
+._padding_r{
+    padding-left: 25px;
+}
+._padding_c{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+._height_img{
+    height: 600px;
+}
+._margin_bottom_s{
+    margin-bottom: 15px;
+}
+
 
 .team_img{
     height: 50vh;
@@ -180,3 +203,4 @@ img{
     color: #ffffff !important;
     font-weight: bold !important;
 }
+
