@@ -15,6 +15,11 @@
     /* Cambia el color de fondo claro */
     --dark: #343A40;
     /* Cambia el color de fondo oscuro */
+
+
+    --primario: rgb(255, 255, 255);
+    --neutro: rgb(175, 175, 175);
+    --secundario: rgb(26, 26, 26);
 }
 
 * {
@@ -27,7 +32,7 @@
 
 
 body {
-    background-color: var(--light);
+    background-color: var(--primary);
     width: 100vw !important;
     overflow-x: hidden;
 }

@@ -64,7 +64,7 @@ $(document).ready(function () {
             "media/img/MFA6.png",
         ];
     }
-    
+
     if (currentPage === "example2.html") {
         imagenes = [
             "media/img/Loewe1.gif",
@@ -200,6 +200,24 @@ $(document).ready(function () {
         // Iniciar con la imagen inicial
         $imgElement.attr("src", imagenes[0]);
     }
+
+
+
+
+
+    var modoNocheActivo = false;
+
+    $("#_cambio_color").click(function () {
+        modoNocheActivo = !modoNocheActivo;
+
+        if (modoNocheActivo) {
+            // Cambiar a modo noche
+
+        } else {
+            // Cambiar a modo día
+
+        }
+    });
 
 
 });
