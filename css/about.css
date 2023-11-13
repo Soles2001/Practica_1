@@ -149,6 +149,24 @@ img{
     border-radius: 5px;
 }
 
+._padding_l{
+    padding-right: 25px;
+}
+._padding_r{
+    padding-left: 25px;
+}
+._padding_c{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+._height_img{
+    height: 600px;
+}
+._margin_bottom_s{
+    margin-bottom: 15px;
+}
+
 
 
 /* MODAL */
@@ -176,3 +194,4 @@ img{
     color: #ffffff !important;
     font-weight: bold !important;
 }
+
