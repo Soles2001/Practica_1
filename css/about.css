@@ -1,5 +1,5 @@
 :root {
-    --primary: #F8F9FA;
+    --primary: #FF5733;
     /* Cambia el color primario */
     --secondary: #00C9A7;
     /* Cambia el color secundario */
@@ -92,7 +92,7 @@ img{
     object-fit: contain;
 }
 
-._navar_mdiferencia{
+.diferencia{
     mix-blend-mode: difference;
 }
 
@@ -204,3 +204,39 @@ img{
     font-weight: bold !important;
 }
 
+
+@media (max-width: 767px) {
+    
+#navbarNav{
+    height: 95vh;
+    background-color: #F8F9FA;
+}
+
+nav{
+    background-color: #F8F9FA;
+}
+
+.navbar-nav{
+    align-items: center;
+    height: 100%;
+    gap: 6%;
+    justify-content: center;
+}
+
+
+
+.diferencia{
+    mix-blend-mode: normal !important;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em; 
+    padding: 0.5em 1em;
+}
+
+._icono_nav{
+    filter: invert(0%) sepia(13%) saturate(7476%) hue-rotate(251deg) brightness(0%) contrast(100%);
+    -webkit-filter: invert(0%) sepia(13%) saturate(7476%) hue-rotate(251deg) brightness(0%) contrast(100%);
+}
+}
