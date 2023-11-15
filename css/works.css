@@ -33,12 +33,6 @@ body {
 }
 
 
-.custom-text {
-    color: var(--primary);
-    /* Cambia el color del texto */
-}
-
-
 
 /*MENU*/
 
@@ -107,13 +101,13 @@ model-viewer {
 }
 
 ._row_header .col{
-    background-color: #DC3545;
+    /* background-color: #DC3545; */
     border: 1px solid #000;
     height: 100vh;
 }
 
 ._row_header .col:hover{
-    background-color: rgb(255, 207, 145);
+    /* background-color: rgb(255, 207, 145); */
     cursor: pointer;
 }
 
@@ -144,6 +138,21 @@ img{
 
 ._navar_mdiferencia{
     mix-blend-mode: difference;
+}
+
+
+._works_mobile{
+    width: 100%;
+    padding: 0px;
+}
+._height_500{
+    height: 500px;
+}
+._copy_works{
+    margin-top: 10px;
+}
+._copy_works h1{
+    margin-left: 10px;
 }
 
 
