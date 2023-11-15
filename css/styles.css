@@ -23,19 +23,17 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    cursor: default;
 }
-
 
 body {
     background-color: var(--light);
     overflow-x: hidden;
 }
 
-
 .text-primary {
     color: var(--primary) !important;
 }
+
 
 
 /*MENU*/
@@ -63,10 +61,6 @@ nav {
     height: 40px;
     object-fit: contain;
 }
-
-
-
-
 
 
 @media screen and (min-width: 768px) {
@@ -158,6 +152,9 @@ model-viewer {
     height: 50vh!important;
 }
 
+
+/* MODAL */
+
 .modal-content {
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(15px);
@@ -180,6 +177,7 @@ model-viewer {
     color: #ffffff !important;
     font-weight: bold !important;
 }
+
 
 
 
@@ -221,8 +219,6 @@ model-viewer {
         justify-content: center;
     }
     
-    
-
     .diferencia{
         mix-blend-mode: normal !important;
     }
