@@ -201,6 +201,10 @@ INTERIOR */
         justify-content: center;
     }
     
+    ._custom_gutter{
+        display: flex;
+        flex-direction: column;
+    }
     
 
     .diferencia{
