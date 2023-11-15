@@ -16,7 +16,6 @@
     --dark: #343A40;
     /* Cambia el color de fondo oscuro */
 
-
     --primario: rgb(255, 255, 255);
     --neutro: rgb(175, 175, 175);
     --secundario: rgb(26, 26, 26);
@@ -27,7 +26,6 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    cursor: default;
 }
 
 
@@ -40,7 +38,6 @@ body {
 
 .custom-text {
     color: var(--primary);
-    /* Cambia el color del texto */
 }
 
 
@@ -80,7 +77,6 @@ nav {
     }
 }
 
-
 img{
     width: 100%;
     height: 100%;
@@ -92,9 +88,10 @@ img{
     object-fit: contain;
 }
 
-._navar_mdiferencia{
+.diferencia{
     mix-blend-mode: difference;
 }
+
 
 /* PARA TODOS */
 
@@ -107,8 +104,6 @@ a:hover{
 }
 
 ._nav_height{
-    /* salva nav */
-    /* salva nav */
     display: flex;
     height: 65px;
     width: 100vw;
@@ -118,31 +113,29 @@ a:hover{
 ._jpg_12col{
     height: 730px;
 }
+
 ._jpg_850{
     height: 850px;
 }
+
 ._contenedor_margen{
     margin: 50px;
 }
+
 ._contenedor_margen a{
     text-decoration: none;
     color: inherit;
 }
+
 h4{
     font-weight: 400;
 }
+
 .mb-5{
     margin-bottom: 50px;
 }
 
 
-
-
-
-
-
-
-/* NOSOTROS */
 /* NOSOTROS */
 
 .custom-list {
@@ -150,16 +143,20 @@ h4{
     padding: 0;
     list-style: none; 
 }
+
 img{
     border-radius: 5px;
 }
 
+
 ._padding_l{
     padding-right: 25px;
 }
+
 ._padding_r{
     padding-left: 25px;
 }
+
 ._padding_c{
     padding-right: 25px;
     padding-left: 25px;
@@ -168,17 +165,17 @@ img{
 ._height_img{
     height: 600px;
 }
+
 ._margin_bottom_s{
     margin-bottom: 15px;
 }
-
 
 .team_img{
     height: 50vh;
 }
 
 
-/* MODAL */
+
 /* MODAL */
 
 .modal-content {
@@ -204,3 +201,37 @@ img{
     font-weight: bold !important;
 }
 
+
+@media (max-width: 767px) {
+    
+#navbarNav{
+    height: 95vh;
+    background-color: #F8F9FA;
+}
+
+nav{
+    background-color: #F8F9FA;
+}
+
+.navbar-nav{
+    align-items: center;
+    height: 100%;
+    gap: 6%;
+    justify-content: center;
+}
+
+.diferencia{
+    mix-blend-mode: normal !important;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em; 
+    padding: 0.5em 1em;
+}
+
+._icono_nav{
+    filter: invert(0%) sepia(13%) saturate(7476%) hue-rotate(251deg) brightness(0%) contrast(100%);
+    -webkit-filter: invert(0%) sepia(13%) saturate(7476%) hue-rotate(251deg) brightness(0%) contrast(100%);
+}
+}

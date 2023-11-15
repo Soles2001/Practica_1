@@ -23,19 +23,17 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    cursor: default;
 }
-
 
 body {
     background-color: var(--light);
     overflow-x: hidden;
 }
 
-
 .text-primary {
     color: var(--primary) !important;
 }
+
 
 
 /*MENU*/
@@ -55,8 +53,8 @@ nav {
     padding: 0.5em 1em;
 }
 
-._navar_mdiferencia{
-    mix-blend-mode: difference;
+.diferencia{
+    mix-blend-mode: difference !important;
 }
 
 ._icono_nav{
@@ -74,6 +72,7 @@ nav {
         margin-right: 0;
         padding: 0 1em;
     }
+
 }
 
 
@@ -101,6 +100,10 @@ model-viewer {
 
 
 /*MAIN*/
+
+.opacity-50:hover{
+    opacity: 100% !important;
+}
 
 .img_home{
     height: 80vh !important;
@@ -153,6 +156,9 @@ model-viewer {
     height: 50vh!important;
 }
 
+
+/* MODAL */
+
 .modal-content {
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(15px);
@@ -178,6 +184,7 @@ model-viewer {
 
 
 
+
 @media (max-width: 767px) {
 
     .accordion-flush{
@@ -198,6 +205,37 @@ model-viewer {
 
     .accordion-button{
         font-size: 4vw;
+    }
+
+   #navbarNav{
+        height: 95vh;
+        background-color: #F8F9FA;
+    }
+
+    nav{
+        background-color: #F8F9FA;
+    }
+
+    .navbar-nav{
+        align-items: center;
+        height: 100%;
+        gap: 6%;
+        justify-content: center;
+    }
+    
+    .diferencia{
+        mix-blend-mode: normal !important;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        color: #000000;
+        font-size: 1.1em; 
+        padding: 0.5em 1em;
+    }
+
+    ._icono_nav{
+        filter: invert(0%) sepia(13%) saturate(7476%) hue-rotate(251deg) brightness(0%) contrast(100%);
+        -webkit-filter: invert(0%) sepia(13%) saturate(7476%) hue-rotate(251deg) brightness(0%) contrast(100%);
     }
 
 }
