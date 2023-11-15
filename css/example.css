@@ -129,24 +129,17 @@ INTERIOR */
 ._contenedor_margen{
     margin: 50px;
 }
-._contenedor_margen a{
+._a{
     text-decoration: none;
     color: inherit;
 }
-._contenedor_margen h4{
+._h4{
     font-weight: 400;
 }
 
 ._custom_gutter {
     gap: 50px;
 }
-
-/* ._custom_gutter .col:first-child{
-    padding-right: 0;
-}
-._custom_gutter .col:nth-child(2){
-    padding-left: 0;
-} */
 
 
 
