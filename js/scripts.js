@@ -204,9 +204,8 @@ $(document).ready(function () {
 
 
 
-
+    //NO ESTA HECHO
     var modoNocheActivo = false;
-
     $("#_cambio_color").click(function () {
         modoNocheActivo = !modoNocheActivo;
 
@@ -217,6 +216,15 @@ $(document).ready(function () {
             // Cambiar a modo día
 
         }
+    });
+
+
+    $('#collapseExample').on('show.bs.collapse', function() {
+        $('.fas.fa-chevron-up').css('transform', 'rotate(180deg)');
+      });
+  
+      $('#collapseExample').on('hide.bs.collapse', function() {
+        $('.fas.fa-chevron-up').css('transform', 'rotate(0deg)');
     });
 
 
