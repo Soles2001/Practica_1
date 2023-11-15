@@ -228,4 +228,11 @@ $(document).ready(function () {
     });
 
 
+    //SOLO PERMITE UN COLLAPSE ABIERTO EN LA SECCIÓN DE WORKS
+    
+    $('.collapse').on('show.bs.collapse', function () {
+        $('.collapse.show').not(this).collapse('hide');
+    });
+
 });
+
