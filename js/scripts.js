@@ -229,10 +229,16 @@ $(document).ready(function () {
 
 
     //SOLO PERMITE UN COLLAPSE ABIERTO EN LA SECCIÓN DE WORKS
-    
-    $('.collapse').on('show.bs.collapse', function () {
-        $('.collapse.show').not(this).collapse('hide');
-    });
+    //ASEGURAMOS QUE SOLO FUNCIONA EN EL HTML WORKS
+    if (currentPage === "work.html") {
+
+        $('.collapse').on('show.bs.collapse', function () {
+            $('.collapse.show').not(this).collapse('hide');
+            //si clikeas en un collapse que se cierren todos menos ese
+        });
+    }
+
+
 
 });
 
