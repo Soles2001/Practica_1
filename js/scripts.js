@@ -219,14 +219,16 @@ $(document).ready(function () {
     });
 
     //ESTE SCRIPT ES PARA WORKS (EXTERIOR) PARA EL CHEVRON EN EL COLLAPSE/TOGGLE
-    $('#collapseExample').on('show.bs.collapse', function() {
-        $('.fas.fa-chevron-up').css('transform', 'rotate(180deg)').css('transition', 'transform 0.3s ease');
+    $('.chevron').on('show.bs.collapse', function() {
+        //necesitamos busca en this para que no abra todos los chevrons a la vez
+        //necesitamos añadir el prev porque el icono chevron no esta dentro del div seleccionado
+        //si no que es el elemento que lo precede
+        $(this).prev().find('.fas.fa-chevron-up').css('transform', 'rotate(180deg)').css('transition', 'transform 0.3s ease');
       });
   
-      $('#collapseExample').on('hide.bs.collapse', function() {
-        $('.fas.fa-chevron-up').css('transform', 'rotate(0deg)').css('transition', 'transform 0.3s ease');
+      $('.chevron').on('hide.bs.collapse', function() {
+        $(this).prev().find('.fas.fa-chevron-up').css('transform', 'rotate(0deg)').css('transition', 'transform 0.3s ease');
     });
-
 
     //SOLO PERMITE UN COLLAPSE ABIERTO EN LA SECCIÓN DE WORKS
     //ASEGURAMOS QUE SOLO FUNCIONA EN EL HTML WORKS
