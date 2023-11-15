@@ -183,5 +183,12 @@ a:hover{
 .navbar-brand img:hover{
     cursor: pointer;
 }
+._h4{
+    font-weight: 400;
+}
+._btn{
+    background-color: #000;
+    color: #fff;
+}
 
 
