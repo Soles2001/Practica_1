@@ -218,13 +218,13 @@ $(document).ready(function () {
         }
     });
 
-
+    //ESTE SCRIPT ES PARA WORKS (EXTERIOR) PARA EL CHEVRON EN EL COLLAPSE/TOGGLE
     $('#collapseExample').on('show.bs.collapse', function() {
-        $('.fas.fa-chevron-up').css('transform', 'rotate(180deg)');
+        $('.fas.fa-chevron-up').css('transform', 'rotate(180deg)').css('transition', 'transform 0.3s ease');
       });
   
       $('#collapseExample').on('hide.bs.collapse', function() {
-        $('.fas.fa-chevron-up').css('transform', 'rotate(0deg)');
+        $('.fas.fa-chevron-up').css('transform', 'rotate(0deg)').css('transition', 'transform 0.3s ease');
     });
 
 
