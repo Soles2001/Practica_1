@@ -181,9 +181,16 @@ a:hover{
     color: #fff;
 }
 
+@media (max-width: 816px){
+    .work_colum>div{
+        padding: 0 !important;
+    }
+}
 
 @media (max-width: 767px) {
-    
+    .work_colum>div{
+        padding: auto;
+    }
 #navbarNav{
     height: 95vh;
     background-color: #F8F9FA;
