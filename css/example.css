@@ -35,6 +35,10 @@ body {
     /* Cambia el color del texto */
 }
 
+body::-webkit-scrollbar{
+    display:none;
+}
+
 
 
 /*MENU*/

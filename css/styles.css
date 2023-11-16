@@ -34,6 +34,10 @@ body {
     color: var(--primary) !important;
 }
 
+body::-webkit-scrollbar{
+    display:none;
+}
+
 
 
 /*MENU*/

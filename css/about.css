@@ -40,6 +40,10 @@ body {
     color: var(--primary);
 }
 
+body::-webkit-scrollbar{
+    display:none;
+}
+
 
 
 /*MENU*/
