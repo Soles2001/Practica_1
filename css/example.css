@@ -175,8 +175,8 @@ a:hover{
         margin-top: 3%;
     }
 
-    .container-xxl > div:not(:first-child){
-        width: 100vw;
+    .container-xxl > div{
+        width: 100%;
     }
 
     #navbarNav{
@@ -215,4 +215,10 @@ a:hover{
         filter: invert(0%) sepia(13%) saturate(7476%) hue-rotate(251deg) brightness(0%) contrast(100%);
         -webkit-filter: invert(0%) sepia(13%) saturate(7476%) hue-rotate(251deg) brightness(0%) contrast(100%);
     }
+
+    ._jpg_12col{
+        max-height: 40vh;
+    }
+
+    
 }
