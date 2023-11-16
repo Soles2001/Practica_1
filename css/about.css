@@ -110,13 +110,6 @@ a:hover{
 }
 
 
-.{
-    height: 730px;
-}
-
-.{
-    height: 850px;
-}
 
 ._contenedor_margen{
     margin: 50px;
@@ -163,7 +156,7 @@ img{
 }
 
 ._height_img{
-    height: 600px;
+    height: 500px;
 }
 
 ._margin_bottom_s{
@@ -203,6 +196,10 @@ img{
 
 
 @media (max-width: 767px) {
+
+    ._column_resp{
+        flex-direction: column;
+    }
     
 #navbarNav{
     height: 95vh;
@@ -233,5 +230,11 @@ nav{
 ._icono_nav{
     filter: invert(0%) sepia(13%) saturate(7476%) hue-rotate(251deg) brightness(0%) contrast(100%);
     -webkit-filter: invert(0%) sepia(13%) saturate(7476%) hue-rotate(251deg) brightness(0%) contrast(100%);
+}
+
+._padding_r, 
+._padding_l, 
+._padding_c {
+    padding: 0;
 }
 }
