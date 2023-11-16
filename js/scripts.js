@@ -105,7 +105,6 @@ $(document).ready(function () {
             "media/img/g3.jpg",
             "media/img/g4.jpg",
             "media/img/g5.jpg",
-            "media/img/g6.jpg",
         ];
     }
 
